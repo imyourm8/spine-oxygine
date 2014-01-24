@@ -1,0 +1,46 @@
+includepaths
+{
+	"src"
+	"includes"
+}
+
+options 
+{ 
+	optimise-speed
+	enable-exceptions
+	module_path="../oxygine/marmalade/"
+}
+
+subprojects
+{
+	oxygine-framework
+}
+
+files
+{
+	["Oxygine"]
+	("src/spine-oxygine")
+	"*.cpp"
+
+	("includes/spine-oxygine")
+	"*.h"
+
+	["spine"]
+	("src/spine")
+	"*.c"
+
+	("includes/spine")
+	"*.h"
+
+	["json"]
+	("includes/json")
+	"*.h"
+
+	("src/json")
+	"*.cpp"
+	json_valueiterator.inl
+	json_internalmap.inl
+	json_internalarray.inl
+	json_batchallocator.h
+}
+

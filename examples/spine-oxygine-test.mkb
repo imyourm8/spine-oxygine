@@ -1,0 +1,24 @@
+#!/usr/bin/env mkb
+
+options
+{
+	module_path=".."
+}
+
+
+files
+{
+	[]
+	(src)
+	test.cpp
+}
+
+includepaths
+{
+	src
+}
+
+subprojects
+{
+	spine-oxygine
+}

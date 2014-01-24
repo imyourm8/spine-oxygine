@@ -1,0 +1,8 @@
+<resources>
+	<atlas>
+		<image file="spineboy.png" />
+	</atlas>
+	<spine_sprite skeleton="spineboy-skeleton.json" atlas="spineboy.atlas">
+		<animation file="spineboy-walk.json" />
+	</spine_sprite>
+</resources>
